@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <h1>Lista de Tarefas</h1>
+    <form id="task-form">
+        <input type="text" id="task-input" placeholder="Digite a tarefa" required>
+        <div class="buttons">
+            <button type="submit" id="add-task">Adicionar Tarefa</button>
+            <button type="button" id="cancel-task">Cancelar Tarefa</button>
+        </div>
+    </form>
+
+    <ul id="task-list"></ul>
+
+    <button id="clear-tasks">Limpar Tarefas</button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
